@@ -1,0 +1,19 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #192735;
+}
+.sun{
+    width: 100px;
+    height: 100px;
+    background: radial-gradient( #f09819, #ff512f);
+    border-radius: 50%;
+    box-shadow: -4px 2px 56px orange;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
