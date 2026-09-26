@@ -112,3 +112,35 @@ body{
         transform: rotate(360deg) translateX(150px) rotate(-360deg);
     }
 }
+.moon_orbit{
+    height: 57px;
+    width: 57px;
+    border-radius:  50%;
+    border: 0.8px dotted #dd9;
+    position: absolute;
+    top: -20%;
+    left: -25%;
+    background: transparent;
+
+}
+.moon{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: -4px 2px 56px #fff;
+    position: absolute;
+    top:42%;
+    left:42%;
+    transform: translate(-50%, -50%);
+    animation: moon-orbit 4s linear infinite;
+}
+@keyframes moon-orbit{
+    from {
+        transform: rotate(0deg) translateX(27px) rotate(0deg);
+
+    }
+    to {
+        transform: rotate(360deg) translateX(27px) rotate(-360deg);
+    }
+}
