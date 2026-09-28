@@ -44,8 +44,7 @@ body{
     height:20px;
     width: 20px;
     border-radius: 50%;
-    background: linear-gradient(#504e51, #97979f, #ceccd1, 
-    #b5a7b5);
+    background: linear-gradient(#e7e8ec, #ada8a5,#b1adad, #8c8c94 ,#68696d);
     position: absolute;
     top:44%;
     left:44%;
@@ -71,7 +70,7 @@ body{
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    background: linear-gradient(#fcc782, #c5cf31, #bbbe0b, #d36a08);
+    background: linear-gradient(#f8e2b0, 	#eecb8b, #e3bb76, #d3a567, 	#ad8d54);
     position: absolute;
     top:44%;
     left:44%;
@@ -95,8 +94,7 @@ body{
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background: linear-gradient(#4f4cb0, #6b93d6, #e9eff9, 
-    #9fc164,#d8c596);
+    background: linear-gradient(#4f4cb0, #6b93d6, #e9eff9, #9fc164,#d8c596);
     position: absolute;
     top:44%;
     left:44%;
