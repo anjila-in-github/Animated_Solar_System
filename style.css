@@ -144,3 +144,27 @@ body{
         transform: rotate(360deg) translateX(27px) rotate(-360deg);
     }
 }
+.mars_orbit{
+    height: 400px;
+    width: 400px;
+}
+.mars{
+    height :23px;
+    width: 23px;
+    border-radius: 50%;
+    background: linear-gradient(#f0efef, #451804, #c1440e, #e77d11, #fda600);
+    position: absolute;
+    top: 47%;
+    left: 47%;
+    transform: translate(-50% , -50%);
+    animation: orbit4 11s linear infinite;
+}
+@keyframes orbit4{
+    from {
+        transform: rotate(0deg) translateX(200px) rotate(0deg);
+
+    }
+    to {
+        transform: rotate(360deg) translateX(200px) rotate(-360deg);
+    }
+}
