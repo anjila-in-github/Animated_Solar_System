@@ -166,3 +166,51 @@ body{
         transform: rotate(360deg) translateX(200px) rotate(-360deg);
     }
 }
+.jupiter_orbit{
+    height: 500px;
+    width: 500px;
+}
+.jupiter{
+    height: 48PX;
+    width: 48px;
+    background: linear-gradient(  #b4a79e, #dcd0b8, #d1a77f, #e3dadf, #ddb47e);
+    border-radius: 50%;
+    position: absolute;
+    top: 47%;
+    left: 47%;
+    animation: orbit5 7s linear infinite;
+}
+@keyframes orbit5 {
+    from {
+        transform: rotate(0deg) translateX(250px) rotate(0deg);
+
+    }
+    to {
+        transform: rotate(360deg) translateX(250px) rotate(-360deg);
+    }
+}
+.saturn_orbit{
+    height : 630px;
+    width: 630px;
+}
+.saturn{
+    height : 43px;
+    width: 43px;
+    background: linear-gradient(#eddbad,#e2bf7d,	#c3924f,#fceead,#c4b08b);
+    border-radius: 50%;
+    position: absolute;
+    top: 47%;
+    left: 47%;
+    animation: orbit6 13s linear infinite;
+
+}
+
+@keyframes orbit6 {
+    from {
+        transform: rotate(0deg) translateX(315px) rotate(0deg);
+
+    }
+    to {
+        transform: rotate(360deg) translateX(315px) rotate(-360deg);
+    }
+}
