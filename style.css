@@ -48,7 +48,6 @@ body{
     position: absolute;
     top:44%;
     left:44%;
-    transform: translate(-50%, -50%);
     animation: orbit1 4s linear infinite;
 
 }
@@ -74,7 +73,6 @@ body{
     position: absolute;
     top:44%;
     left:44%;
-    transform: translate(-50%, -50%);
     animation: orbit2 8s linear infinite;
 }
 @keyframes orbit2{
@@ -98,7 +96,6 @@ body{
     position: absolute;
     top:44%;
     left:44%;
-    transform: translate(-50%, -50%);
     animation: orbit3 12s linear infinite;
 }
 @keyframes orbit3{
@@ -130,7 +127,6 @@ body{
     position: absolute;
     top:42%;
     left:42%;
-    transform: translate(-50%, -50%);
     animation: moon-orbit 4s linear infinite;
 }
 @keyframes moon-orbit{
@@ -154,7 +150,6 @@ body{
     position: absolute;
     top: 47%;
     left: 47%;
-    transform: translate(-50% , -50%);
     animation: orbit4 11s linear infinite;
 }
 @keyframes orbit4{
@@ -220,8 +215,55 @@ body{
     border-radius: 50%;
     border: 1px dotted #dd9;
     position: absolute;
-    top: -10%;
+    top: -8%;
     left: -10%;
     background-color: transparent;
 
+}
+
+.uranus_orbit{
+    height: 750px;
+    width: 750px;
+}
+.uranus{
+    height: 40px;
+    width: 40px;
+    background: linear-gradient(#afdbf5,#93cdf1,#62aee7,	#4296dc,#2e84ce);
+    border-radius: 50%;
+    position: absolute;
+    top: 47%;
+    left: 47%;
+    animation: orbit7 15s linear infinite;
+}
+@keyframes orbit7 {
+    from {
+        transform: rotate(0deg) translateX(375px) rotate(0deg);
+
+    }
+    to {
+        transform: rotate(360deg) translateX(375px) rotate(-360deg);
+    }
+}
+.neptune_orbit{
+    height: 900px;
+    width: 900px;
+}
+.neptune{
+    height: 38px;
+    width: 38px;
+    background: linear-gradient(#477efd,#74d6fd,#3d5ef9,#2b378b,#1f2255);
+    border-radius: 50%;
+    position: absolute;
+    top: 47%;
+    left: 47%;
+    animation: orbit8 17s linear infinite;
+}
+@keyframes orbit8 {
+    from {
+        transform: rotate(0deg) translateX(450px) rotate(0deg);
+
+    }
+    to {
+        transform: rotate(360deg) translateX(450px) rotate(-360deg);
+    }
 }
