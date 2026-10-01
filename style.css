@@ -214,3 +214,14 @@ body{
         transform: rotate(360deg) translateX(315px) rotate(-360deg);
     }
 }
+.saturn_ring{
+    height: 55px;
+    width:55px;
+    border-radius: 50%;
+    border: 1px dotted #dd9;
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    background-color: transparent;
+
+}
