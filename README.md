@@ -16,9 +16,13 @@ A solar system website created using HTML and CSS.
 
 🛠️ How to Run the Project
 
--Clone the repository or download the ZIP.
--Open the project folder in a code editor (e.g., VS Code).
--Open index.html in your browser (or use Live Server).
+- Clone the repository or download the ZIP.
+
+  
+- Open the project folder in a code editor (e.g., VS Code).
+
+
+- Open index.html in your browser (or use Live Server).
 
 📸 Preview
 
