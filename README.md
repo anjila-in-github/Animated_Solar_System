@@ -24,10 +24,6 @@ A solar system website created using HTML and CSS.
 
 - Open index.html in your browser (or use Live Server).
 
-🌐 Live Demo
-
-https://anjila-in-github/Animated_Solar_System/
-
 
 📸 Preview
 
