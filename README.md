@@ -14,9 +14,11 @@ A solar system website created using HTML and CSS.
 - Space-themed design
 - Responsive layout
 
-🌐 Live Demo
+🛠️ How to Run the Project
 
-https://anjila-in-github/solar-system/
+-Clone the repository or download the ZIP.
+-Open the project folder in a code editor (e.g., VS Code).
+-Open index.html in your browser (or use Live Server).
 
 📸 Preview
 
